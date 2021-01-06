@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PawanJS/chatApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PawanJS/chatApp/issues"
+  },
+  "homepage": "https://github.com/PawanJS/chatApp#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
