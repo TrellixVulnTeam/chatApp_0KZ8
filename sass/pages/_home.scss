@@ -1,23 +1,38 @@
 .app {
   &__container {
+    overflow: hidden;
+    position: relative;
     background-color: hsl(0, 0%, 100%);
     max-width: 144rem;
     width: 100%;
+    z-index: 1;
 
     &--bg-1,
     &--bg-2 {
       position: absolute;
+      z-index: -1;
+      width: 32%;
+      height: 85%;
     }
 
     &--bg-1 {
-      height: 60%;
-      width: 20%;
-      background-color: red;
-      border-bottom-right-radius: 18rem;
-      border-bottom-left-radius: 18rem;
+      top: 0;
+      left: -5%;
+      border-bottom-right-radius: 25rem;
+      border-bottom-left-radius: 25rem;
+      background: linear-gradient(
+        to left bottom,
+        hsl(293, 100%, 63%),
+        hsl(264, 100%, 61%)
+      );
     }
 
     &--bg-2 {
+      bottom: 0;
+      right: -8%;
+      background-color: hsl(270, 20%, 96%);
+      border-top-right-radius: 25rem;
+      border-top-left-radius: 25rem;
     }
   }
 }

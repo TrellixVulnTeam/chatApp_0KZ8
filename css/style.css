@@ -9,7 +9,6 @@ html {
   font-size: 62.5%; }
 
 .container {
-  position: relative;
   line-height: 1.4;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
@@ -20,17 +19,29 @@ html {
   grid-row-gap: 5rem; }
 
 .app__container {
+  overflow: hidden;
+  position: relative;
   background-color: white;
   max-width: 144rem;
-  width: 100%; }
+  width: 100%;
+  z-index: 1; }
   .app__container--bg-1, .app__container--bg-2 {
-    position: absolute; }
+    position: absolute;
+    z-index: -1;
+    width: 32%;
+    height: 85%; }
   .app__container--bg-1 {
-    height: 60%;
-    width: 20%;
-    background-color: red;
-    border-bottom-right-radius: 18rem;
-    border-bottom-left-radius: 18rem; }
+    top: 0;
+    left: -5%;
+    border-bottom-right-radius: 25rem;
+    border-bottom-left-radius: 25rem;
+    background: linear-gradient(to left bottom, #e942ff, #8838ff); }
+  .app__container--bg-2 {
+    bottom: 0;
+    right: -8%;
+    background-color: #f5f3f7;
+    border-top-right-radius: 25rem;
+    border-top-left-radius: 25rem; }
 
 .attribution {
   font-size: 11px;
