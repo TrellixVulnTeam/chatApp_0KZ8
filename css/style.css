@@ -9,12 +9,28 @@ html {
   font-size: 62.5%; }
 
 .container {
+  position: relative;
   line-height: 1.4;
   font-weight: 400;
-  font-family: "Rubik", sans-serif; }
+  font-family: "Rubik", sans-serif;
+  background-color: #000;
+  padding: 10rem 0;
+  display: grid;
+  place-items: center;
+  grid-row-gap: 5rem; }
 
 .app__container {
-  background-color: white; }
+  background-color: white;
+  max-width: 144rem;
+  width: 100%; }
+  .app__container--bg-1, .app__container--bg-2 {
+    position: absolute; }
+  .app__container--bg-1 {
+    height: 60%;
+    width: 20%;
+    background-color: red;
+    border-bottom-right-radius: 18rem;
+    border-bottom-left-radius: 18rem; }
 
 .attribution {
   font-size: 11px;

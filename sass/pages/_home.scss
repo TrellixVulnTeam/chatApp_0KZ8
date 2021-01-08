@@ -1,6 +1,24 @@
 .app {
   &__container {
     background-color: hsl(0, 0%, 100%);
+    max-width: 144rem;
+    width: 100%;
+
+    &--bg-1,
+    &--bg-2 {
+      position: absolute;
+    }
+
+    &--bg-1 {
+      height: 60%;
+      width: 20%;
+      background-color: red;
+      border-bottom-right-radius: 18rem;
+      border-bottom-left-radius: 18rem;
+    }
+
+    &--bg-2 {
+    }
   }
 }
 
