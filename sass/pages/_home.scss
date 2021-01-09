@@ -6,6 +6,7 @@
     max-width: 144rem;
     width: 100%;
     z-index: 1;
+    padding: 15rem 5rem;
     display: grid;
     place-items: center;
     gap: 10rem;
@@ -33,7 +34,7 @@
 
     &--bg-2 {
       bottom: 0;
-      right: -8%;
+      right: -12%;
       background-color: hsl(270, 20%, 96%);
       border-top-right-radius: 25rem;
       border-top-left-radius: 25rem;
@@ -42,7 +43,19 @@
 
   &__illustration {
     grid-column: 2 / 4;
-    background-color: thistle;
+  }
+
+  &__body {
+    background-color: hsl(270, 20%, 96%);
+    // max-height: calc(50rem + 2vh);
+    // max-width: 40rem;
+    // height: 100%;
+    // width: 100%;
+  }
+
+  &__icon {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   &__description {
