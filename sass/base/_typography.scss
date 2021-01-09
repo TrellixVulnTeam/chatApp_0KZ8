@@ -1,0 +1,16 @@
+.container {
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+}
+
+.heading-1 {
+  font-size: calc(1.8rem + 1.2vw);
+  font-weight: 500;
+  color: $heading-color;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  color: $paragraph-color;
+}

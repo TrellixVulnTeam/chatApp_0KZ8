@@ -6,6 +6,10 @@
     max-width: 144rem;
     width: 100%;
     z-index: 1;
+    display: grid;
+    place-items: center;
+    gap: 10rem;
+    grid-template-columns: repeat(6, 1fr);
 
     &--bg-1,
     &--bg-2 {
@@ -34,6 +38,15 @@
       border-top-right-radius: 25rem;
       border-top-left-radius: 25rem;
     }
+  }
+
+  &__illustration {
+    grid-column: 2 / 4;
+    background-color: thistle;
+  }
+
+  &__description {
+    grid-column: 4 / 6;
   }
 }
 
