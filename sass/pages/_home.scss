@@ -2,7 +2,7 @@
   &__container {
     overflow: hidden;
     position: relative;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsla(0, 0%, 100%, 0.924);
     max-width: 144rem;
     width: 100%;
     z-index: 1;
@@ -51,6 +51,8 @@
     // max-width: 40rem;
     // height: 100%;
     // width: 100%;
+    border-radius: 5rem;
+    box-shadow: 0 0 0 1rem #fff;
   }
 
   &__icon {
