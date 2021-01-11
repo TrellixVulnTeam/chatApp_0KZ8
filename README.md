@@ -1,3 +1,5 @@
+# CURRENTLY WORKING ON IT
+
 # Frontend Mentor - Chat app CSS illustration
 
 ![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)
@@ -19,7 +21,7 @@ The only assets we provide in this challenge are the image of the person in the 
 Your users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-- See the chat interface animate on the initial load *(optional)*
+- See the chat interface animate on the initial load _(optional)_
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
