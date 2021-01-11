@@ -58,21 +58,23 @@ html {
   .app__container--bg-2 {
     bottom: 0;
     right: -12%;
-    background-color: #f5f3f7;
+    background-color: rgba(216, 158, 255, 0.075);
     border-top-right-radius: 25rem;
     border-top-left-radius: 25rem; }
 
 .app__illustration {
-  grid-column: 2 / 4; }
-
-.app__body {
+  grid-column: 2 / 4;
   background-color: #f5f3f7;
   border-radius: 5rem;
-  box-shadow: 0 0 0 1rem #fff; }
+  box-shadow: 0 0 0 1rem #fff;
+  display: grid;
+  grid-template-columns: repeat(5, 6rem);
+  grid-template-rows: repeat(12, 5rem); }
 
 .app__icon {
   width: 1.5rem;
-  height: 1.5rem; }
+  height: 1.5rem;
+  fill: #fff; }
 
 .app__description {
   grid-column: 4 / 6; }
