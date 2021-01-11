@@ -70,6 +70,7 @@ html {
     border-top-left-radius: 25rem; }
 
 .app__illustration {
+  position: relative;
   overflow: hidden;
   grid-column: 2 / 4;
   background-color: #f5f3f7;
@@ -89,6 +90,17 @@ html {
   background: linear-gradient(to left, #e942ff, #8838ff); }
   .app__top-notch {
     grid-column: 1 / 6; }
+    .app__top-notch::after {
+      content: "";
+      display: block;
+      width: 15rem;
+      height: 3.5rem;
+      border-radius: 1.7rem;
+      background-color: #fff;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%); }
   .app__top--icon {
     width: 1rem;
     height: 1rem;
