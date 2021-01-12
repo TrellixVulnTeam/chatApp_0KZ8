@@ -2,7 +2,7 @@
   &__container {
     overflow: hidden;
     position: relative;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsla(0, 0%, 100%, 0.87);
     max-width: 144rem;
     width: 100%;
     z-index: 1;
@@ -106,11 +106,8 @@
   &__center {
     padding: 1.5rem 1.2rem;
     display: grid;
-    grid-template-columns: repeat(5, 5rem);
+    grid-template-columns: repeat(5, 4.5rem);
     gap: 1rem;
-
-    // *just for initial height
-    grid-template-rows: repeat(11, 5rem);
   }
 
   &__bg {
@@ -181,10 +178,25 @@
       }
     }
 
-    &--6 {
-    }
+    &--8 {
+      grid-column: 1 / 6;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 5rem;
+      padding: 1rem 1rem 1rem 2rem;
+      color: hsl(206, 6%, 79%);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-    &--7 {
+      span {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        background-color: hsl(271, 36%, 24%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 
@@ -211,12 +223,6 @@
     height: 100%;
     object-fit: cover;
     border-radius: 0.7rem;
-  }
-
-  &__icon {
-    width: 1.5rem;
-    height: 1.5rem;
-    fill: #fff;
   }
 
   &__description {

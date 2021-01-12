@@ -43,7 +43,7 @@ html {
 .app__container {
   overflow: hidden;
   position: relative;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.87);
   max-width: 144rem;
   width: 100%;
   z-index: 1;
@@ -120,9 +120,8 @@ html {
 .app__center {
   padding: 1.5rem 1.2rem;
   display: grid;
-  grid-template-columns: repeat(5, 5rem);
-  gap: 1rem;
-  grid-template-rows: repeat(11, 5rem); }
+  grid-template-columns: repeat(5, 4.5rem);
+  gap: 1rem; }
 
 .app__bg {
   font-size: 1rem;
@@ -163,6 +162,23 @@ html {
       margin-left: auto;
       font-size: 1.6rem;
       font-weight: 700; }
+  .app__bg--8 {
+    grid-column: 1 / 6;
+    background-color: white;
+    border-radius: 5rem;
+    padding: 1rem 1rem 1rem 2rem;
+    color: #c6cacd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .app__bg--8 span {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      background-color: #3e2753;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
 
 .app__items {
   width: 5rem;
@@ -180,11 +196,6 @@ html {
   height: 100%;
   object-fit: cover;
   border-radius: 0.7rem; }
-
-.app__icon {
-  width: 1.5rem;
-  height: 1.5rem;
-  fill: #fff; }
 
 .app__description {
   grid-column: 4 / 6; }
