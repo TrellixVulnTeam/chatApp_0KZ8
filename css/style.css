@@ -74,7 +74,8 @@ html {
     height: 85%; }
     @media screen and (max-width: 39em) {
       .app__container--bg-1, .app__container--bg-2 {
-        height: 50%; } }
+        height: 50%;
+        width: 50%; } }
   .app__container--bg-1 {
     top: 0;
     left: -5%;
